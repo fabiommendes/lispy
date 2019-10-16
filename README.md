@@ -168,9 +168,9 @@ linguagem. Lembre-se disso quando estiver lendo exemplos de documentação de Li
 Scheme aceita a [sintaxe](https://docs.racket-lang.org/reference/let.html)
 
 ```
-(let ((nome-1 valor-1)
-      (nome-2 valor-2))
-    (expr nome-1 nome-2))
+(let ((nome1 valor1)
+      (nome2 valor2))
+    (expr nome1 nome2))
 ```
 
 Esta expressão permite definir temporariamente as variáveis nome-1 e nome-2 e utilizá-las
@@ -180,9 +180,9 @@ A gramática de Lispy também aceita uma forma alternativa, mais legível
 
 ```
 :let {
-    nome-1 = valor-1
-    nome-2 valor-2
-} in (expr nome-1 nome-2)
+    nome1 = valor1
+    nome2 = valor2
+} in (expr nome1 nome2)
 ```
 
 ### If's
