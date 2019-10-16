@@ -1,0 +1,13 @@
+;; Retorna a sequência de Collatz para o número dado
+;; Argumento deve ser um número inteiro.
+:defn collatz n:
+    :if [n = 1] then:
+        (list 1)
+    :elif (even? n) then:
+        (cons n (collatz [n quotient 2]))
+    :else:
+        (cons n (collatz [[3 * n] + 1]))
+
+
+;; Imprime a sequência de Collatz de 42
+(print (collatz 42))

@@ -1,0 +1,9 @@
+venv
+.hypothesis/
+.pytest_cache/
+.code
+.cache
+htmlcov
+private
+.coverage
+__pytest__

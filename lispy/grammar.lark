@@ -1,0 +1,13 @@
+?start : value+
+
+?value : SYMBOL
+ 
+
+// Terminais
+SYMBOL.0  : /[-!+\/*@$%^&~<>?|\\\w=]+/
+STRING    : /"[^"\\]*(\\[^\n\t\r\f][^"\\]*)*"/
+INT.1     : /-?\d+/
+FLOAT.2   : /-?\d+\.\d+/
+
+%ignore /\s+/
+%ignore /;[^\n]*/

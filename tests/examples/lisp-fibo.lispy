@@ -1,0 +1,17 @@
+;; Série de Fibonacci
+(define fibo (lambda (n)
+    (fibo-tco n 0 1 (list))))
+
+
+;; Implementação com eliminação de recursão de cauda
+(define fibo-tco (lambda (n x y lst) 
+    (if (equal? n 0)
+       lst
+        (let ((x_ y)
+              (y_ (+ x y))
+              (lst_ (append lst (list x_))))
+            (fibo-tco (- n 1) x_ y_ lst_)))))
+
+
+;; Imprime o resultado
+(print (fibo 10))

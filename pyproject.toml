@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+
+[tool.flit.metadata]
+module = "lispy"
+dist-name = "lispy-fabio"
+author = "Fábio Macêdo Mendes"
+author-email = "fabiomacedomendes@gmail.com"
+home-page = "http://github.com/fabiommendes/lispy/"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+    "click",
+    "lark-parser",
+]
+
+
+[tool.flit.scripts]
+lispy = "lispy.__main__:main"
