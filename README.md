@@ -1,8 +1,8 @@
-=======
-Avisos!
-=======
+======
+Avisos
+======
 
-* Envio do trabalho de lispy: https://docs.google.com/forms/d/e/1FAIpQLSdSkhlcFpR2hRlagztN7hqRC5l1l4mz7rKhM92hqc4h9xgxBw/viewform?usp=sf_link
+* `Envio do trabalho de lispy <https://docs.google.com/forms/d/e/1FAIpQLSdSkhlcFpR2hRlagztN7hqRC5l1l4mz7rKhM92hqc4h9xgxBw/viewform?usp=sf_link>`_
 
 Trabalho de Lispy
 =================
